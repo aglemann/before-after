@@ -9,15 +9,15 @@ Why
 
 There doesn't seem to be a good drop-in patch for `:before` and `:after` anywhere on the web. Dean Edward's [ie7-js](http://code.google.com/p/ie7-js/) does an excellent job of adding this, but also adds a lot of other patches that impact performance and often have undesired effects on the rendering of a page.
 
-This is nothing more than a custom build of *ie7-js 2.1 beta4* using the included `build.php?ie8` (ie8 compat) with the following modules disabled:
+This is nothing more than a custom build of **ie7-js 2.1 beta4** using the included `build.php?ie8` (ie8 compat) with the following modules disabled:
 
-* include('ie7-layout.js');
-* include('ie7-graphics.js');
-* include('ie7-fixed.js');
-* include('ie7-overflow.js');
-* include('ie7-quirks.js');
-* include('ie8-layout.js');
-* include('ie8-graphics.js');
+* ie7-layout.js
+* ie7-graphics.js
+* ie7-fixed.js
+* ie7-overflow.js
+* ie7-quirks.js
+* ie8-layout.js
+* ie8-graphics.js
 
 
 Credits
